@@ -11,12 +11,12 @@ public class CalculatorTests {
         calc = new SumCalculator();
     }
 
-//    @Test
-//    public void testThatSumWorksCorrect1() {
-//        int actual = calc.sum(1);
-//        int expected = 1;
-//        Assertions.assertEquals(expected, actual);
-//    }
+   @Test
+   public void testThatSumWorksCorrect1() {
+       int actual = calc.sum(1);
+       int expected = 1;
+       Assertions.assertEquals(expected, actual);
+   }
 
     @Test
     public void testThatSubWorksCorrect3() {
